@@ -9,7 +9,7 @@ class BankAccount
 		if (amount>0)
 		{
 			balance+=amount;
-			return "Succesfully Deposited Money to your Account" + amount;
+			return "Succesfully Deposited Money to your Account :" + amount;
 			
 		}
 		else{
@@ -46,7 +46,7 @@ class	ATM
 		System.out.println("\n WELCOME TO THE ATM");
 		System.out.println("1.CHECK BALANCE");
 		System.out.println("2.DEPOSIT MONEY");
-		System.out.println("3.WITHDRA MONEY");
+		System.out.println("3.WITHDRAW MONEY");
 		System.out.println("4.EXIT FROM THE ATM");
 		
 	}
